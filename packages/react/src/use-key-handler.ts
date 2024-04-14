@@ -1,4 +1,4 @@
-import { useCallback, useEffect } from 'react';
+import { useEffect } from 'react';
 import { handleShortcut } from './utils';
 import { Shortcut } from './types';
 

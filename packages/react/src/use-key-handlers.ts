@@ -8,7 +8,7 @@ import { handleShortcuts } from './utils';
  * Please memoize your listener! :)
  *
  * @example
- *   import { useKeyHandler } from '@/utils';
+ *   import { useKeyHandlers } from '@/utils';
  *   const handleShortcuts = useMemo<ShortcutWithHandler[]>(
  *     () => [
  *       ['shift+a', handleShiftA],
@@ -16,7 +16,7 @@ import { handleShortcuts } from './utils';
  *     ],
  *     []
  *   );
- *   useKeyHandler('shift+a', handleShortcuts);
+ *   useKeyHandlers('shift+a', handleShortcuts);
  *
  * @param shortcut String representation of the shortcut to trigger listener on
  * @param listener Callback to handle event when key shortcut is pressed
