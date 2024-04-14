@@ -1,15 +1,12 @@
 {
-  "name": "@repo/ui",
+  "name": "@ts-key-handler/react",
   "version": "0.0.0",
   "private": true,
-  "exports": {
-    "./button": "./src/button.tsx",
-    "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx"
-  },
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component"
+    "generate:component": "turbo gen react-component",
+    "build": "tsc"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",

@@ -3,5 +3,8 @@
     {
       "mode": "auto"
     }
-  ]
+  ],
+  "prettier.configPath": "./prettier.config.js",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useEditorConfig": false
 }
