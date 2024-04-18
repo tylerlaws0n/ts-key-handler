@@ -1,6 +1,6 @@
 {
-  "name": "ts-react-keys",
-  "version": "0.1.1",
+  "name": "@ts-key-handler/react",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "publishConfig": {
     "access": "public"
