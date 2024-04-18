@@ -1,7 +1,10 @@
 {
   "name": "ts-react-keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",

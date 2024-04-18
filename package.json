@@ -1,13 +1,13 @@
 {
   "name": "ts-key-handler",
-  "private": true,
   "type": "module",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish-packages": "turbo run build lint && changeset version && changeset publish"
+    "publish-packages": "turbo run build lint && changeset version && changeset publish",
+    "test": "echo $NPM_TOKEN"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
