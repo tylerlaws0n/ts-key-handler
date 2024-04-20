@@ -13,9 +13,12 @@ const _singleShortcutEventHandler = (
   shortcut: Shortcut,
   listener: (e: KeyboardEvent) => void
 ) => {
-  const key = shortcut.charAt(shortcut.length - 1) as Key;
+  const key = shortcut.charAt(shortcut.length - 1).toLowerCase() as Key;
   const remaining = shortcut.slice(0, -2); // shortcut without +${key}
-  if (event.key !== key || !remaining.length) {
+
+  // key is always lowercase, shift should not change it
+  if (event.key.toLowerCase() !== key || !remaining.length) {
+    if (event.key === key) listener(event);
     return;
   }
 

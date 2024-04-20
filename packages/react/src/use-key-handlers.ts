@@ -16,12 +16,12 @@ import { handleShortcuts } from './utils';
  *     ],
  *     []
  *   );
- *   useKeyHandlers('shift+a', handleShortcuts);
+ *   useKeyHandlers(handleShortcuts);
  *
  * @param shortcut String representation of the shortcut to trigger listener on
  * @param listener Callback to handle event when key shortcut is pressed
  */
-export const useKeyHandlers = (...handlers: ShortcutWithHandler[]) => {
+export const useKeyHandlers = (handlers: ShortcutWithHandler[]) => {
   useEffect(() => {
     const handler = handleShortcuts(...handlers);
     document.addEventListener('keydown', handler);
