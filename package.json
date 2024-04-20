@@ -1,6 +1,9 @@
 {
   "name": "ts-key-handler",
   "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -16,9 +19,5 @@
     "prettier": "^3.2.5",
     "prettier-plugin-jsdoc": "latest",
     "turbo": "latest"
-  },
-  "packageManager": "pnpm@8.9.0",
-  "engines": {
-    "node": ">=18"
   }
 }
