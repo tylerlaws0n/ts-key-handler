@@ -10,7 +10,8 @@
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "publish-packages": "turbo run build lint && changeset version && changeset publish",
-    "test": "echo $NPM_TOKEN"
+    "test": "bun test \"test.ts\" \"test.tsx\"",
+    "test:dev": "bun test --watch \"test.ts\" \"test.tsx\""
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
