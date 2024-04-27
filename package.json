@@ -9,12 +9,11 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "publish-packages": "turbo run build lint && changeset version && changeset publish",
-    "test": "bun test \"test.ts\" \"test.tsx\"",
-    "test:dev": "bun test --watch \"test.ts\" \"test.tsx\""
+    "publish-packages": "turbo run build lint && changeset version && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
+    "@happy-dom/global-registrator": "^14.7.1",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "prettier": "^3.2.5",

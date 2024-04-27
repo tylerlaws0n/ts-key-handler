@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
-import { ShortcutWithHandler } from './types';
-import { handleShortcuts } from './utils';
+import { ShortcutWithHandler, handleShortcuts } from '@core';
 
 /**
  * Helper hook to handle a single key shortcut with a listener
