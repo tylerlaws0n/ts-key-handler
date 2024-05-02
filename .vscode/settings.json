@@ -6,5 +6,6 @@
   ],
   "prettier.configPath": "./prettier.config.js",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.useEditorConfig": false
+  "prettier.useEditorConfig": false,
+  "cSpell.words": ["tsup"]
 }
