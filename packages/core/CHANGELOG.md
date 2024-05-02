@@ -1,5 +1,11 @@
 # ts-react-keys
 
+## 0.1.2
+
+### Patch Changes
+
+- 83334a3: Separated core from react package
+
 ## 0.1.1
 
 ### Patch Changes
