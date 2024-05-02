@@ -10,7 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint . --max-warnings 0",
+    "lint": "eslint . --ignore-pattern dist --max-warnings 0",
     "clean": "rm -rf dist",
     "prebuild": "bun run clean",
     "build": "tsup src/index.ts --dts --format cjs,esm",
