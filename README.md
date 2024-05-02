@@ -20,7 +20,7 @@ const handleShortcuts = useMemo<ShortcutWithHandler[]>(
   ],
   []
 );
-useKeyHandlers('shift+a', handleShortcuts);
+useKeyHandlers(handleShortcuts);
 ```
 
 This is a super minimal type-safe library for handling key events.

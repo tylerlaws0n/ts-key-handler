@@ -16,6 +16,8 @@
     "@happy-dom/global-registrator": "^14.7.1",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
+    "@testing-library/react": "^15.0.6",
+    "happy-dom": "^14.7.1",
     "prettier": "^3.2.5",
     "prettier-plugin-jsdoc": "latest",
     "tsup": "^8.0.2",

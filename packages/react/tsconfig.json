@@ -6,6 +6,6 @@
       "@core": ["../core/src/index"]
     }
   },
-  "include": ["src", "../../happydom.ts"],
-  "exclude": ["node_modules", "dist", "src/**/*.test.ts", "src/**/*.test.tsx"]
+  "include": ["src", "happydom.ts"],
+  "exclude": ["node_modules", "dist"]
 }
